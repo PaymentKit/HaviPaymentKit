@@ -40,8 +40,8 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-    s.dependency 'SHDRPaymentMethod'
-    s.dependency 'SHDRAlipay'
+    s.dependency 'SHPaymentMethod'
+    s.dependency 'HaviPayment'
     #s.dependency 'SHDRPayeco'
     s.dependency 'BYOBBrickYard'
     s.dependency 'WDPRCommonProtocols'
