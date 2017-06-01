@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HaviPaymentKit_Example' do
+  pod 'HaviPaymentKit', :path => '../'
+
+  target 'HaviPaymentKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

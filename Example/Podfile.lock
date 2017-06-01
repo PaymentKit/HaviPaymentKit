@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HaviPaymentKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HaviPaymentKit (from `../`)
+
+EXTERNAL SOURCES:
+  HaviPaymentKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HaviPaymentKit: e9453bb79fb8e15177789f1a3c7ffbb97c0161dd
+
+PODFILE CHECKSUM: 677fcb5cded1e01c5601102370a63aa06122fe25
+
+COCOAPODS: 1.2.1
